@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class ItemDisplay : MonoBehaviour
+public class PlayerDataDisplay : MonoBehaviour
 {
-    public Data itemData;               // reference to ScriptableObject
+    public PlayerData itemData;               // reference to ScriptableObject
     public TextMeshProUGUI itemNameText;
     public Image itemIconImage;
 

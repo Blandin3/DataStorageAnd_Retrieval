@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class HealthManager : MonoBehaviour
+public class HealthMananger : MonoBehaviour
 {
     public float health = 13f;
 

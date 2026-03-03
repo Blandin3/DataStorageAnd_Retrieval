@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ProcessHealth : MonoBehaviour
 {
-    public HealthManager healthManager;
+    public HealthMananger healthManager;
 
     void OnEnable()
     {
