@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2c7f38273c3de40b8b81fa0b8b8c34, type: 3}
   m_Name: Player 2
   m_EditorClassIdentifier: Assembly-CSharp::Playerdata
-  playerName: Judy
-  playerLevel: 100
-  health: 60
-  mana: 20
-  experiencePoints: 800
+  playerName: Blandine
+  score: 0
+  health: 100

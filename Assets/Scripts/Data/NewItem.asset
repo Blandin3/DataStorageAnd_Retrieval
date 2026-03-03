@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2c7f38273c3de40b8b81fa0b8b8c34, type: 3}
-  m_Name: Player 1
-  m_EditorClassIdentifier: Assembly-CSharp::Playerdata
-  playerName: Mia
-  score: 20
-  health: 200
+  m_Script: {fileID: 11500000, guid: df41aac468db9684084e4ff501ac8c26, type: 3}
+  m_Name: NewItem
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerData
+  Name: 
+  Icon: {fileID: 0}

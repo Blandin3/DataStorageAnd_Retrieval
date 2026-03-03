@@ -18,7 +18,7 @@ public class PlayerPrefsManager : MonoBehaviour
 
         // Load saved data or set default values
         health = UnityEngine.PlayerPrefs.GetFloat("Health", 100f);
-        playerName = UnityEngine.PlayerPrefs.GetString("PlayerName", "Ken");
+        playerName = UnityEngine.PlayerPrefs.GetString("PlayerName", "Blandine");
         score = UnityEngine.PlayerPrefs.GetInt("Score", 0);
 
         UpdateUI();
@@ -32,7 +32,7 @@ public class PlayerPrefsManager : MonoBehaviour
             health = 0f;
 
         // Score increases over time
-        score += Mathf.RoundToInt(Time.deltaTime * 5); 
+        score += Mathf.RoundToInt(Time.deltaTime * 50); 
 
         // Save updated values
         UnityEngine.PlayerPrefs.SetFloat("Health", health);
